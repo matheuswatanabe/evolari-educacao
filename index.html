@@ -34,7 +34,7 @@
     if (!matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('motion');
   })();
 </script>
-<link rel="stylesheet" href="styles.css?v=37">
+<link rel="stylesheet" href="styles.css?v=39">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
 {"@type":["LocalBusiness","ProfessionalService"],"@id":"https://matheuswatanabe.github.io/evolari-educacao/#empresa","name":"Evolari Educação","legalName":"Priscilla Caroline Andrade da Silva","description":"Assessoria educacional e representante autorizada da UNICIVE. Orientação para Técnico para Tecnólogo, primeira graduação e segunda graduação EAD, do primeiro contato até a matrícula.","url":"https://matheuswatanabe.github.io/evolari-educacao/","logo":"https://matheuswatanabe.github.io/evolari-educacao/img/icon-512.png","image":"https://matheuswatanabe.github.io/evolari-educacao/img/og-evolari.jpg","taxID":"65.308.755/0001-01","telephone":"+55-44-99161-6579","address":{"@type":"PostalAddress","streetAddress":"Rua Souza Naves, 973","addressLocality":"Paranavaí","addressRegion":"PR","addressCountry":"BR"},"areaServed":{"@type":"Country","name":"Brasil"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"12:00"}],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+55-44-99161-6579","availableLanguage":"Portuguese","url":"https://wa.me/5544991616579"},"knowsAbout":["Graduação EAD","Técnico para Tecnólogo","Segunda graduação","Aproveitamento de estudos"],"sameAs":["https://www.instagram.com/evolarieducacao/","https://www.facebook.com/share/1DgbH6VRsG/"]},
@@ -307,7 +307,7 @@
         <aside class="note trio__quote rv">
           <blockquote>“Separa o histórico da sua graduação: é com ele que a gente vê o que dá para aproveitar.”</blockquote>
           <p class="sign"><b>Priscilla</b>sócia-fundadora · cuida da sua escolha</p>
-          <button type="button" class="share js-share" data-for="segunda"><svg><use href="#i-share"/></svg>Mandar para alguém de casa</button>
+          <a class="pull__wa js-wa" href="https://wa.me/5544991616579" target="_blank" rel="noopener" data-pos="segunda-frase" data-offer="segunda"><svg aria-hidden="true"><use href="#i-wa"/></svg>Mandar meu histórico<svg class="pull__go" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         </aside>
       </div>
     </div>
@@ -443,10 +443,10 @@
         <a class="pill pill--teal js-wa" href="https://wa.me/5544991616579" target="_blank" rel="noopener" data-pos="como"><svg><use href="#i-wa"/></svg><span>Dar o primeiro passo</span></a>
       </div>
       <ol class="steps">
-        <li class="rv"><span class="steps__n">01</span><h3>Conversa</h3><p>Você chama no WhatsApp e conta seu momento. A gente responde rápido e sem pressão.</p><span class="chip"><svg class="chip__wa" aria-hidden="true"><use href="#i-wa"/></svg>pelo WhatsApp</span></li>
-        <li class="rv"><span class="steps__n">02</span><h3>Escolha do curso</h3><p>Você recebe a grade, a duração, o formato e as condições, e escolhe com calma.</p><span class="chip"><svg><use href="#i-clock"/></svg>no seu tempo</span></li>
-        <li class="rv"><span class="steps__n">03</span><h3>Documentos e matrícula</h3><p>Você recebe a lista do que enviar, a gente confere e você paga a taxa de matrícula para a Evolari.</p><span class="chip"><svg><use href="#i-shield"/></svg>a gente confere com você</span></li>
-        <li class="rv"><span class="steps__n">04</span><h3>Portal do aluno</h3><p>A UNICIVE envia contrato e acesso por e-mail. As mensalidades você paga direto para ela.</p><span class="chip"><svg><use href="#i-laptop"/></svg>a gente acompanha até liberar</span></li>
+        <li class="rv"><span class="steps__n">01</span><h3>Conversa</h3><p>Você chama no WhatsApp e conta seu momento. A gente responde rápido e sem pressão.</p><span class="chip"><span class="chip__ic chip__ic--wa" aria-hidden="true"><svg><use href="#i-wa"/></svg></span>pelo WhatsApp</span></li>
+        <li class="rv"><span class="steps__n">02</span><h3>Escolha do curso</h3><p>Você recebe a grade, a duração, o formato e as condições, e escolhe com calma.</p><span class="chip"><span class="chip__ic" aria-hidden="true"><svg><use href="#i-clock"/></svg></span>no seu tempo</span></li>
+        <li class="rv"><span class="steps__n">03</span><h3>Documentos e matrícula</h3><p>Você recebe a lista do que enviar, a gente confere e você paga a taxa de matrícula para a Evolari.</p><span class="chip"><span class="chip__ic" aria-hidden="true"><svg><use href="#i-shield"/></svg></span>a gente confere com você</span></li>
+        <li class="rv"><span class="steps__n">04</span><h3>Portal do aluno</h3><p>A UNICIVE envia contrato e acesso por e-mail. As mensalidades você paga direto para ela.</p><span class="chip"><span class="chip__ic" aria-hidden="true"><svg><use href="#i-laptop"/></svg></span>a gente acompanha até liberar</span></li>
       </ol>
     </div>
   </section>
@@ -543,6 +543,6 @@
   <span class="float__btn"><svg><use href="#i-wa"/></svg></span>
 </a>
 
-<script src="app.js?v=17" defer></script>
+<script src="app.js?v=18" defer></script>
 </body>
 </html>
