@@ -34,7 +34,7 @@
     if (!matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('motion');
   })();
 </script>
-<link rel="stylesheet" href="styles.css?v=35">
+<link rel="stylesheet" href="styles.css?v=36">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
 {"@type":["LocalBusiness","ProfessionalService"],"@id":"https://matheuswatanabe.github.io/evolari-educacao/#empresa","name":"Evolari Educação","legalName":"Priscilla Caroline Andrade da Silva","description":"Assessoria educacional e representante autorizada da UNICIVE. Orientação para Técnico para Tecnólogo, primeira graduação e segunda graduação EAD, do primeiro contato até a matrícula.","url":"https://matheuswatanabe.github.io/evolari-educacao/","logo":"https://matheuswatanabe.github.io/evolari-educacao/img/icon-512.png","image":"https://matheuswatanabe.github.io/evolari-educacao/img/og-evolari.jpg","taxID":"65.308.755/0001-01","telephone":"+55-44-99161-6579","address":{"@type":"PostalAddress","streetAddress":"Rua Souza Naves, 973","addressLocality":"Paranavaí","addressRegion":"PR","addressCountry":"BR"},"areaServed":{"@type":"Country","name":"Brasil"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"12:00"}],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+55-44-99161-6579","availableLanguage":"Portuguese","url":"https://wa.me/5544991616579"},"knowsAbout":["Graduação EAD","Técnico para Tecnólogo","Segunda graduação","Aproveitamento de estudos"],"sameAs":["https://www.instagram.com/evolarieducacao/","https://www.facebook.com/share/1DgbH6VRsG/"]},
@@ -80,24 +80,38 @@
 
 <header class="top">
   <div class="top__in">
-    <a class="top__brand" href="#topo" aria-label="Evolari Educação, início">
-      <img src="img/logo-horizontal.png" width="181" height="40" alt="Evolari Educação" fetchpriority="high">
-    </a>
-    <nav class="top__nav" aria-label="Seções">
+    <div class="top__id">
+      <a class="top__brand" href="#topo" aria-label="Evolari Educação, início">
+        <img src="img/logo-horizontal.png" width="181" height="40" alt="Evolari Educação" fetchpriority="high">
+      </a>
+      <a class="top__seal" href="https://unicive.com/representantes-autorizados/" target="_blank" rel="noopener" data-track="selo-topo">
+        <span>Representante autorizada</span><img src="img/unicive.png" width="91" height="15" alt="UNICIVE">
+      </a>
+    </div>
+    <nav class="top__nav" id="menu" aria-label="Seções">
       <a href="#momento">Cursos</a>
       <a href="#por-que">Por que a Evolari</a>
       <a href="#quem">Quem somos</a>
       <a href="#como">Como funciona</a>
       <a href="#duvidas">Dúvidas</a>
+      <div class="top__menu-foot">
+        <a class="top__menu-seal" href="https://unicive.com/representantes-autorizados/" target="_blank" rel="noopener" data-track="selo-menu">
+          <span>Representante autorizada</span><img src="img/unicive.png" width="110" height="18" alt="UNICIVE">
+        </a>
+        <a class="pill pill--teal pill--lg js-wa" href="https://wa.me/5544991616579" target="_blank" rel="noopener" data-pos="menu">
+          <svg><use href="#i-wa"/></svg><span>Conversar no WhatsApp</span>
+        </a>
+      </div>
     </nav>
-    <a class="top__seal" href="https://unicive.com/representantes-autorizados/" target="_blank" rel="noopener" data-track="selo-topo">
-      <span>Representante autorizada</span><img src="img/unicive.png" width="97" height="16" alt="UNICIVE">
+    <a class="pill pill--teal top__cta js-wa" href="https://wa.me/5544991616579" target="_blank" rel="noopener" data-pos="topo-menu" aria-label="Falar agora no WhatsApp">
+      <svg aria-hidden="true"><use href="#i-wa"/></svg><span>Falar agora</span>
     </a>
-    <a class="pill pill--teal top__cta js-wa" href="https://wa.me/5544991616579" target="_blank" rel="noopener" data-pos="topo-menu">
-      <svg><use href="#i-wa"/></svg><span>Falar agora</span>
-    </a>
+    <button type="button" class="top__burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
+<div class="scrim" aria-hidden="true"></div>
 
 <main id="topo">
 
@@ -529,6 +543,6 @@
   <span class="float__btn"><svg><use href="#i-wa"/></svg></span>
 </a>
 
-<script src="app.js?v=16" defer></script>
+<script src="app.js?v=17" defer></script>
 </body>
 </html>
