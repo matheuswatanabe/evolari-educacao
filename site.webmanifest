@@ -1,0 +1,13 @@
+{
+  "name": "Evolari Educação",
+  "short_name": "Evolari",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
