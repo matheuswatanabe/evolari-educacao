@@ -34,7 +34,7 @@
     if (!matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('motion');
   })();
 </script>
-<link rel="stylesheet" href="styles.css?v=40">
+<link rel="stylesheet" href="styles.css?v=51">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
 {"@type":["LocalBusiness","ProfessionalService"],"@id":"https://matheuswatanabe.github.io/evolari-educacao/#empresa","name":"Evolari Educação","legalName":"Priscilla Caroline Andrade da Silva","description":"Assessoria educacional e representante autorizada da UNICIVE. Orientação para Técnico para Tecnólogo, primeira graduação e segunda graduação EAD, do primeiro contato até a matrícula.","url":"https://matheuswatanabe.github.io/evolari-educacao/","logo":"https://matheuswatanabe.github.io/evolari-educacao/img/icon-512.png","image":"https://matheuswatanabe.github.io/evolari-educacao/img/og-evolari.jpg","taxID":"65.308.755/0001-01","telephone":"+55-44-99161-6579","address":{"@type":"PostalAddress","streetAddress":"Rua Souza Naves, 973","addressLocality":"Paranavaí","addressRegion":"PR","addressCountry":"BR"},"areaServed":{"@type":"Country","name":"Brasil"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"12:00"}],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+55-44-99161-6579","availableLanguage":"Portuguese","url":"https://wa.me/5544991616579"},"knowsAbout":["Graduação EAD","Técnico para Tecnólogo","Segunda graduação","Aproveitamento de estudos"],"sameAs":["https://www.instagram.com/evolarieducacao/","https://www.facebook.com/share/1DgbH6VRsG/"]},
@@ -258,7 +258,7 @@
 
       <div class="grid2">
         <div class="courses rv">
-          <p class="kicker">Alguns dos mais procurados</p>
+          <h3 class="courses__title">Algumas das graduações mais procuradas</h3>
           <ul class="courses__list">
             <li>Administração</li><li>Pedagogia</li><li>Análise e Desenvolvimento de Sistemas</li><li>Gestão de RH</li><li>Logística</li><li>Gestão Financeira</li><li>Segurança do Trabalho</li><li>Marketing</li>
           </ul>
@@ -327,6 +327,13 @@
       </ul>
 
       <div class="vs rv">
+        <div class="vs__key" aria-hidden="true">
+          <p>Etapa por etapa</p>
+          <div class="vs__chips">
+            <span class="vs__chip vs__chip--solo"><svg><use href="#i-x"/></svg>Por conta própria</span>
+            <span class="vs__chip vs__chip--with"><svg><use href="#i-check"/></svg>Com a Evolari</span>
+          </div>
+        </div>
         <table class="vs__table">
           <caption class="sr">Por conta própria e com a Evolari, etapa por etapa</caption>
           <thead>
@@ -416,7 +423,7 @@
         </article>
         <article class="cell cell--feature rv">
           <p class="cell__price"><small>mensalidades a partir de</small>R$109<sup>*</sup></p>
-          <figure class="cell__photo"><img src="img/fotos/estudante-700.webp" srcset="img/fotos/estudante-440.webp 440w, img/fotos/estudante-700.webp 700w, img/fotos/estudante-1000.webp 1000w" sizes="(min-width: 1180px) 380px, (min-width: 1000px) 32vw, calc(100vw - 80px)" width="700" height="560" alt="Jovem sorrindo enquanto estuda no notebook, sentada no sofá de casa" loading="lazy" decoding="async"></figure>
+          <figure class="cell__photo"><img src="img/fotos/estudante-sofa-700.webp" srcset="img/fotos/estudante-sofa-440.webp 440w, img/fotos/estudante-sofa-700.webp 700w, img/fotos/estudante-sofa-1000.webp 1000w" sizes="(min-width: 1180px) 380px, (min-width: 1024px) 32vw, (min-width: 600px) 260px, calc(100vw - 80px)" width="700" height="560" alt="Mulher estudando no notebook no sofá de casa, com um livro aberto ao lado" loading="lazy" decoding="async"></figure>
           <p>Valores, parcelas e taxa de matrícula explicados antes de qualquer pagamento.</p>
           <p class="cell__cnpj"><b>Empresa registrada</b>Evolari Educação · CNPJ 65.308.755/0001-01<br>Rua Souza Naves, 973, Paranavaí-PR</p>
         </article>
