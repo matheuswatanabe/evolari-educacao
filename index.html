@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Graduação EAD UNICIVE com orientação humana | Evolari Educação</title>
+<title>Graduação EAD UNICIVE com assessoria em Paranavaí | Evolari</title>
 <meta name="description" content="Técnico para Tecnólogo, primeira e segunda graduação EAD na UNICIVE, a partir de R$109/mês*. Orientação humana em Paranavaí-PR, do primeiro oi até a matrícula.">
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#FFFFFF">
@@ -27,19 +27,23 @@
 <link rel="preload" href="fonts/gabarito-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/evolari-texto-wght.woff2" as="font" type="font/woff2" crossorigin>
 <script>
-  /* Antes da pintura: oferta vinda do anúncio (?para=) e se a página anima. */
+  /* Antes da pintura: oferta (?para=) e curso (?curso=) vindos do anúncio, e se a página anima. */
   (function () {
     var d = document.documentElement, q = new URLSearchParams(location.search), p = q.get('para');
+    // cursos com grupo de anúncios próprio: o slug da URL vira o nome no título e na mensagem do WhatsApp
+    var cursos = { administracao: 'Administração', pedagogia: 'Pedagogia', ads: 'Análise e Desenvolvimento de Sistemas', rh: 'Gestão de RH', logistica: 'Logística', 'gestao-financeira': 'Gestão Financeira', 'seguranca-do-trabalho': 'Segurança do Trabalho', marketing: 'Marketing' };
+    var c = cursos.hasOwnProperty(q.get('curso')) && cursos[q.get('curso')];
+    if (c) { d.dataset.curso = c; if (!p) p = 'graduacao'; }
     if (p === 'tecnico' || p === 'graduacao' || p === 'segunda') d.dataset.para = p;
     if (!matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('motion');
   })();
 </script>
-<link rel="stylesheet" href="styles.css?v=51">
+<link rel="stylesheet" href="styles.css?v=52">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
-{"@type":["LocalBusiness","ProfessionalService"],"@id":"https://matheuswatanabe.github.io/evolari-educacao/#empresa","name":"Evolari Educação","legalName":"Priscilla Caroline Andrade da Silva","description":"Assessoria educacional e representante autorizada da UNICIVE. Orientação para Técnico para Tecnólogo, primeira graduação e segunda graduação EAD, do primeiro contato até a matrícula.","url":"https://matheuswatanabe.github.io/evolari-educacao/","logo":"https://matheuswatanabe.github.io/evolari-educacao/img/icon-512.png","image":"https://matheuswatanabe.github.io/evolari-educacao/img/og-evolari.jpg","taxID":"65.308.755/0001-01","telephone":"+55-44-99161-6579","address":{"@type":"PostalAddress","streetAddress":"Rua Souza Naves, 973","addressLocality":"Paranavaí","addressRegion":"PR","addressCountry":"BR"},"areaServed":{"@type":"Country","name":"Brasil"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"12:00"}],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+55-44-99161-6579","availableLanguage":"Portuguese","url":"https://wa.me/5544991616579"},"knowsAbout":["Graduação EAD","Técnico para Tecnólogo","Segunda graduação","Aproveitamento de estudos"],"sameAs":["https://www.instagram.com/evolarieducacao/","https://www.facebook.com/share/1DgbH6VRsG/"]},
+{"@type":["LocalBusiness","ProfessionalService"],"@id":"https://matheuswatanabe.github.io/evolari-educacao/#empresa","name":"Evolari Educação","legalName":"Priscilla Caroline Andrade da Silva","description":"Assessoria educacional e representante autorizada da UNICIVE. Orientação para Técnico para Tecnólogo, primeira graduação e segunda graduação EAD, do primeiro contato até a matrícula.","url":"https://matheuswatanabe.github.io/evolari-educacao/","logo":"https://matheuswatanabe.github.io/evolari-educacao/img/icon-512.png","image":"https://matheuswatanabe.github.io/evolari-educacao/img/og-evolari.jpg","taxID":"65.308.755/0001-01","telephone":"+55-44-99161-6579","address":{"@type":"PostalAddress","streetAddress":"Rua Souza Naves, 973","addressLocality":"Paranavaí","addressRegion":"PR","postalCode":"87702-220","addressCountry":"BR"},"areaServed":[{"@type":"City","name":"Paranavaí"},{"@type":"Country","name":"Brasil"}],"foundingDate":"2026","founder":[{"@type":"Person","name":"Priscilla Caroline Andrade da Silva","jobTitle":"Sócia-fundadora"}],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"12:00"}],"contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+55-44-99161-6579","availableLanguage":"Portuguese","url":"https://wa.me/5544991616579"},"knowsAbout":["Graduação EAD","Técnico para Tecnólogo","Segunda graduação","Aproveitamento de estudos"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Assessoria para graduação EAD na UNICIVE","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","@id":"https://matheuswatanabe.github.io/evolari-educacao/#tecnico","name":"Técnico para Tecnólogo EAD","description":"Orientação para aproveitar o curso técnico em uma graduação tecnológica EAD da UNICIVE, com organização do histórico para a análise da instituição.","url":"https://matheuswatanabe.github.io/evolari-educacao/#tecnico"}},{"@type":"Offer","itemOffered":{"@type":"Service","@id":"https://matheuswatanabe.github.io/evolari-educacao/#graduacao","name":"Primeira graduação EAD","description":"Ajuda para escolher a primeira graduação EAD ou semipresencial da UNICIVE e acompanhamento da matrícula.","url":"https://matheuswatanabe.github.io/evolari-educacao/#graduacao"}},{"@type":"Offer","itemOffered":{"@type":"Service","@id":"https://matheuswatanabe.github.io/evolari-educacao/#segunda","name":"Segunda graduação EAD","description":"Orientação para uma segunda graduação EAD da UNICIVE com aproveitamento de disciplinas da primeira formação.","url":"https://matheuswatanabe.github.io/evolari-educacao/#segunda"}}]},"sameAs":["https://www.instagram.com/evolarieducacao/","https://www.facebook.com/share/1DgbH6VRsG/"]},
 {"@type":"WebSite","@id":"https://matheuswatanabe.github.io/evolari-educacao/#site","url":"https://matheuswatanabe.github.io/evolari-educacao/","name":"Evolari Educação","inLanguage":"pt-BR","publisher":{"@id":"https://matheuswatanabe.github.io/evolari-educacao/#empresa"}},
-{"@type":"WebPage","@id":"https://matheuswatanabe.github.io/evolari-educacao/#pagina","url":"https://matheuswatanabe.github.io/evolari-educacao/","name":"Graduação EAD UNICIVE com orientação humana | Evolari Educação","isPartOf":{"@id":"https://matheuswatanabe.github.io/evolari-educacao/#site"},"about":{"@id":"https://matheuswatanabe.github.io/evolari-educacao/#empresa"},"primaryImageOfPage":"https://matheuswatanabe.github.io/evolari-educacao/img/og-evolari.jpg","inLanguage":"pt-BR"},
+{"@type":"WebPage","@id":"https://matheuswatanabe.github.io/evolari-educacao/#pagina","url":"https://matheuswatanabe.github.io/evolari-educacao/","name":"Graduação EAD UNICIVE com assessoria em Paranavaí | Evolari","description":"Técnico para Tecnólogo, primeira e segunda graduação EAD na UNICIVE, com orientação humana da Evolari Educação em Paranavaí-PR, do primeiro contato até a matrícula.","dateModified":"2026-10-20","isPartOf":{"@id":"https://matheuswatanabe.github.io/evolari-educacao/#site"},"about":{"@id":"https://matheuswatanabe.github.io/evolari-educacao/#empresa"},"primaryImageOfPage":"https://matheuswatanabe.github.io/evolari-educacao/img/og-evolari.jpg","inLanguage":"pt-BR"},
 {"@type":"FAQPage","@id":"https://matheuswatanabe.github.io/evolari-educacao/#duvidas","mainEntity":[
 {"@type":"Question","name":"A Evolari é a faculdade?","acceptedAnswer":{"@type":"Answer","text":"Não. Somos uma assessoria educacional e representante autorizada da UNICIVE. A gente orienta você e cuida da sua matrícula; aulas, contrato e diploma são da UNICIVE."}},
 {"@type":"Question","name":"O curso é reconhecido pelo MEC?","acceptedAnswer":{"@type":"Answer","text":"A UNICIVE é uma instituição credenciada pelo MEC, e a situação de cada curso pode ser consultada no e-MEC. Na conversa, a gente te mostra como conferir o seu."}},
@@ -120,7 +124,7 @@
     <div class="book" aria-hidden="true"><svg class="book__svg"></svg></div>
     <div class="hero__copy">
       <h1 id="hero-title" class="hero__title" data-tecnico="Seu curso técnico pode virar uma graduação" data-graduacao="Sua primeira faculdade, no seu ritmo" data-segunda="Um novo diploma aproveitando o que você já estudou">Sua graduação EAD, com alguém do seu lado em cada passo<i class="dot">.</i></h1>
-      <script>/* título do anúncio (?para=) trocado antes da pintura */ (function (h, p) { p = document.documentElement.dataset.para; if (p && h.dataset[p]) h.firstChild.nodeValue = h.dataset[p]; })(document.getElementById('hero-title'));</script>
+      <script>/* título do anúncio (?curso= ou ?para=) trocado antes da pintura */ (function (h, d) { d = document.documentElement.dataset; if (d.curso) h.firstChild.nodeValue = d.curso + ' EAD na UNICIVE, com alguém do seu lado em cada passo'; else if (d.para && h.dataset[d.para]) h.firstChild.nodeValue = h.dataset[d.para]; })(document.getElementById('hero-title'));</script>
       <p class="hero__lead">A gente te ajuda a escolher o curso na UNICIVE e acompanha sua matrícula do primeiro oi até o portal do aluno.</p>
       <div class="hero__actions">
         <a class="pill pill--gold pill--lg js-wa" href="https://wa.me/5544991616579" target="_blank" rel="noopener" data-pos="topo">
@@ -394,6 +398,7 @@
           <div class="person__body">
             <h3 class="person__name">Sara</h3>
             <p class="person__role">Sócia</p>
+            <p>Cuida do seu atendimento e da sua matrícula do começo ao fim, para que nenhuma dúvida fique sem resposta.</p>
           </div>
         </article>
       </div>
@@ -521,6 +526,7 @@
         <a href="#como">Como funciona</a>
         <a href="#duvidas">Dúvidas</a>
         <a href="politica-de-privacidade.html">Política de privacidade</a>
+        <button type="button" class="foot__btn js-cookies" hidden>Cookies</button>
       </div>
       <div>
         <p class="foot__h">Atendimento</p>
@@ -550,6 +556,6 @@
   <span class="float__btn"><svg><use href="#i-wa"/></svg></span>
 </a>
 
-<script src="app.js?v=18" defer></script>
+<script src="app.js?v=19" defer></script>
 </body>
 </html>
